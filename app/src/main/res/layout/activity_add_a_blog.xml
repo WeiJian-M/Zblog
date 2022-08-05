@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".secondLayer.AddABlogActivity">
+
+    <EditText
+        android:id="@+id/et_write_blog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="start"
+        android:layout_weight="1"
+        android:hint="写微博..."/>
+
+    <Button
+        android:id="@+id/btn_send_out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发布"/>
+
+</LinearLayout>

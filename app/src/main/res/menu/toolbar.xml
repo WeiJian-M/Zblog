@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/btn_fresh"
+        android:icon="@drawable/ic_baseline_autorenew_24"
+        android:title="刷新"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/btn_add_friends"
+        android:icon="@drawable/ic_baseline_add_circle_24"
+        android:title="添加关注"
+        app:showAsAction="always"/>
+
+
+</menu>

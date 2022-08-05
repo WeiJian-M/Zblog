@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F7F7FF"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="vertical"
+        android:background="@drawable/item_blackground"
+        android:elevation="3dp"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_item_userName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="7dp"
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:layout_marginRight="10dp"
+                android:text="用户名"/>
+
+            <TextView
+                android:id="@+id/tv_item_blogTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dp"
+                android:gravity="right"
+                android:text="时间"/>
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:id="@+id/tv_item_blogContent"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="3dp"
+            android:textSize="16dp"
+            android:text="微博内容"/>
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@drawable/ic_baseline_more_horiz_24"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</LinearLayout>
